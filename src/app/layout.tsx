@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>
+      <body className={`h-screen font-sans ${inter.variable} bg-base-color`}>
         <Header/>
         {children}
       </body>

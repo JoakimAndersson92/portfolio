@@ -1,8 +1,7 @@
 import React from 'react'
 
-type Props = {}
 
-export default function Projects({}: Props) {
+export default function Projects() {
   return (
     <div>ProjectPage</div>
   )
